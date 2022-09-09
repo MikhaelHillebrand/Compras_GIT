@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--Icono de marca-->
+    <link rel="shortcut icon" href="./assets/icons/Logitech_logo_blue-1-552x700.png" type="image/x-icon">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <!--Hoja de Estilos de manera externa-->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Compras-home</title>
+</head>
+
+
+<body>
+
+
+    <!--Barra de navegacion con bootstrap-->
+    <nav class="navbar navbar-expand-lg bg-info p-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/Peliculas.html">Peliculas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Juegos.html">Juegos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Promociones
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./pages/promociones.html">Teclados</a></li>
+                  <li><a class="dropdown-item" href="./pages/promociones.html">Auriculares</a></li>
+                  <li><a class="dropdown-item" href="./pages/promociones.html">Mouse</a></li>
+                </ul>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--Contenedores Bootstrap-->
+<div class="container border border-3 border-danger mt-3">
+  <h2 class="display-4 text-center">Bienvenidos al Sitio Oficial de Compras</h2>
+  <p class="Lead text-center">Aquí encontraras lo último y lo mejor en perisfericos</p>
+</div>
+
+
+      <!--Sliders con Bootstrap-->
+      <div class="container mt-4">
+        <div id="carouseExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/Products/M314_1080x.webp" class="d-block w-100" alt="perisfericos">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/Products/images.jpg" class="d-block w-100" alt="teclado">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/Products/descarga.jpg" class="d-block w-100" alt="mouse">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<main>
+    <Section>
+        <Article class="principales">
+            <!--Imagen de Logitech G502-->
+            <img class="img-main" src="./assets/img/35523_5.jpeg" alt="LogitechG502">
+            <p class="font destacados">LogitechG502</p>
+            <Button class="boton">Comprar</Button>
+        </Article>
+
+        <article class="principales">
+            <!--Imagen Logitech G PRO X-->
+            <img class="img-main" src="./assets/img/D_NQ_NP_878327-MLA28987969547_122018-O.webp" alt="Logitech g pro x">
+            <p class="font destacados">Logitech G Pro X</p>
+            <button class="boton">Comprar</button>
+        
+        </article>
+
+        <article class="principales">
+            <!--Imaegen Logitech G432. 8.5-->
+            <img class="img-main" src="./assets/img/descarga (1).jpg" alt="Logitech G432. 8.5">
+            <p class="font destacados">Logitech G432. 8.5</p>
+            <button class="boton">Comprar</button>
+        </article>
+    </Section>
+</main>
+
+<!--Acá va el contenido más importante de esta página web-->
+<!--Manejo de imágenes-->
+
+<div class="container mt-5 mb-5">
+  <div class="row g-3">
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img class="card-img-top" src="./assets/img/descarga.jpg" alt="Logitech g203"> 
+              <div class="card-body">
+              <h5>Logitech g203</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, quae.</p>
+              <a href="" target="_blank">
+              <button class="boton">Comprar</button>
+              </a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img class="card-img-top" src="./assets/img/logitech g305.jpg" alt="Logitech g305">
+              <div class="card-body">
+              <h5>Logitech G305</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, quae.</p>
+              <a href="" target="_blank">
+              <button class="boton">Comprar</button>
+              </a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img class="card-img-top" src="./assets/img/G300s.jpg"alt="Logitech G3000s">
+              <div class="card-body">
+              <h5></h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, quae.</p>
+              <a href="" target="_blank">
+              <button class="boton">Comprar</button>
+              </a>
+              </div>
+          </div>
+      </div>
+  
+  </div>
+  </div>
+
+<!--en este sector voy a poner un video y dos banners-->
+<section class="video">
+    <p class="h1">Les presentamos el video de la automatización RightSense y audio modular</p>
+    <video poster="./assets/video/descarga.jpg" src="./assets/video/y2mate.com - Logitech Rally 4K UHD Video RightSense Automation  Modular Audio_1080p.mp4" controls></video>
+</section>
+
+
+<!--Formulario Bootstrap-->
+<div class="container mt-3 mb-3">
+    <h3>Decínos Hola</h3>
+    <form class="row g-3" >
+       
+      <div class="col-6">
+            <label for="correo-electronico" class="form-label">Email: </label>
+            <input class="form-control" type="email" id="correo-electronico" placeholder="usuario@servidor.com" required>
+      </div>
+  
+      <div class="col-6">
+            <label for="pass" class="form-label">Contraseña: </label>
+            <input class="form-control" type="password" id="pass" placeholder="ingrese su contraseña">
+      </div>
+  
+      <div class="col-12">
+        <label for="direccion01" class="form-label">Dirección: </label>
+        <input class="form-control" type="text" id="direccion01" placeholder="Dirección">
+      </div>
+  
+      <div class="col-12">
+        <label for="direccion02" class="form-label">Dirección 2: </label>
+        <input class="form-control" type="text" id="direccion02" disabled>
+      </div>
+  
+      <div class="col-6">
+        <label for="ciudad" class="form-label">Ciudad: </label>
+        <input class="form-control" type="text" id="ciudad" placeholder="Ciudad">
+      </div>
+  
+      <div class="col-3">
+        <label for="codigo-postal" class="form-label">Código Postal: </label>
+        <input class="form-control" type="text" id="codigo-postal" placeholder="Código Postal">
+      </div>
+  
+      <div class="col-3">
+        <label for="pais" class="form-label">País: </label>
+        <input class="form-control" type="text" id="pais" placeholder="pais" required>
+      </div>
+  
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="terminos">
+          <label for="terminos" class="form-check-label">Acepto los términos</label>
+        </div>
+      </div>
+  
+      <div>
+        <button type="submit" class="btn btn-success">
+            Enviar
+        </button>
+      </div>
+  
+    </form>
+  </div>
+
+
+
+
+<!--Pié de página mi página web-->
+<footer id="footer" >
+    <article>
+        <h4>Desarrollado por Mikhael Hillebrand</h4>
+        <h4>Seguinos en las redes</h4>
+    </article>
+
+    <article class="redessociales">
+        <!--Iconos de redes-->
+        <!--Iconos de redes-->
+        <!--Iconos de redes-->
+    </article>
+</footer>
+
+
+
+<!--Bootstrap JS-->
+<script src="./libs/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
